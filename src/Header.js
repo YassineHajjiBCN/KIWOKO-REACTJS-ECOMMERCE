@@ -25,23 +25,20 @@ function Header() {
           src="https://www.kiwoko.com/on/demandware.static/Sites-KiwokoES-Site/-/default/dwfaf69df9/images/logo-kiwoko.png"
         />
       </Link>
-
+     
+      <Link to="/checkoutplacet">
+          <div className="header__optionRoom">
+            <RoomIcon />
+            <span className="header__optionLineTwo-2">
+                ubicacion
+            </span>
+          </div>
+        </Link>
+      
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />
       </div>
-
-      <Link to="/checkoutplacet">
-          <div className="header__optionBasket">
-            <RoomIcon />
-            <span className="header__optionLineOne">
-               ubicacion
-            </span>
-            <span className="header__optionLineTwo">
-             &   ubicacion
-            </span>
-          </div>
-        </Link>
 
       <div className="header__nav">
         <PersonIcon />
