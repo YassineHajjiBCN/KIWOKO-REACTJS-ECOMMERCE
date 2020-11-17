@@ -8,6 +8,7 @@
 
 .home__row {
   display: flex;
+  justify-content: center;
   z-index: 1;
   margin-left: 5px;
   margin-right: 5px;
@@ -16,6 +17,48 @@
 .home__image {
   width: 100%;
   z-index: -1;
-  margin-bottom: -150px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  
+}
+
+.title-1-home{
+  font-size: 25px;
+  font-weight: 800;
+  margin: 10px 10px 10px 10px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.decounts-div-1{
+  display: flex;
+  justify-content: center;
+}
+
+.decounts-div-2{
+  width: 310px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(171, 10, 10);
+  padding: 5px 5px 5px 5px;
+}
+
+.decounts-div-2:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.home-row-brand {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.img-envio{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

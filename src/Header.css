@@ -8,6 +8,8 @@
   z-index: 100;
   border-bottom: 2px solid red;
   box-shadow: 5;
+  list-style: none;
+  text-decoration: none;
 }
 
  
@@ -93,3 +95,4 @@
   margin-right: 20px;
   color: rgb(0, 0, 0);
 }
+ 
